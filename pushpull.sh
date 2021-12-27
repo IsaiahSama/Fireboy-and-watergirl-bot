@@ -9,5 +9,5 @@ if [ $len != 1 ]; then
 	exit 1
 fi
 
-git push $!
+git push $1
 git pull $1 Rewrite
