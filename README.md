@@ -49,3 +49,9 @@ As with any software that uses Voice Recognition, it should be toggleable.
 8. Voice lines
 9. Recognize voice commands
 10. At least beat the first level
+
+## Packages to be used
+
+- Pyautogui for image recognition
+- Keyboard for input detection and keyboard manipulation
+- SpeechRecognition for recognizing speech
