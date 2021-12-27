@@ -19,7 +19,7 @@ if [ $resp == 'y' ]; then
 	echo "Adding all files"
 	git add `pwd`/*
 	echo "Commiting with the accepted commit message"
-	git commit -m $msg
+	git commit -m "$msg"
 	echo "Pushing the repository to $repo"
 	git push $repo Rewrite
 	echo "Successful"
