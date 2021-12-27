@@ -1,6 +1,7 @@
 #! /bin/bash
 
-# Script used to pull and push to and from the repo
+# This script is used to add, commit and push the current changes of the repo
+# Accepts the commit message, and repository name as Command Line Arguments
 
 array=( $@ )
 len=${#array[@]}
